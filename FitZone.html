@@ -15,6 +15,31 @@
       height: 500px;
       color: white;
     }
+    .bmi_bg-image {
+      background-image: url('Images/calculate_bg.png');
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      color: white;
+    }
+
+       .form-control.underline-input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    color: white;
+    padding-left: 0;
+  }
+
+  .form-control.underline-input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .form-control.underline-input:focus {
+    box-shadow: none;
+    border-bottom: 1px solid deeppink; /* optional focus color */
+  }
 
     .checked {
           color: orange;
@@ -236,6 +261,87 @@
     </div>
   </div>
 </div>
+
+<!--BMI calculation-->
+<div class="bmi_bg-image d-flex align-items-center ps-5 mt-5" style="height: 800px;">
+    <div class="ms-5 ps-5" style="height:400px;width:50%">
+        <h1 class="fw-bold text-light pb-5">CALCULATE YOUR BMI</h1>
+        <p class="pb-5">Firmament Their Creepeth Bearing Every Have Bearing Without Fly<br>
+            Tree One Deep Is Void Days Bearing In Night After Own Of</p>
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <input type="text" class="form-control underline-input" placeholder="Height/cm">
+          </div>
+          <div class="col-md-6 mb-5">
+            <input type="text" class="form-control underline-input" placeholder="Weight/cm">
+          </div>
+          <div class="col-md-6 mb-5">
+            <input type="text" class="form-control underline-input" placeholder="Age">
+          </div>
+            <!--radio button-->
+            <div class="col-md-6 mb-5  d-flex align-items-end mt-2">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                  <label class="form-check-label" for="inlineRadio3">Other</label>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-danger rounded-pill">BOOK A TABLE</button>
+    </div>
+</div>
+
+
+<!--our team-->
+<div class=" d-flex align-items-center justify-content-center ">
+  <div class="container py-2 text-center">
+      <h2 class="text-danger mb-2">OUR TEAM</h2>
+      <h1 class="mb-2">MEET WITH TRAINERS</h1>
+    <p>Stars fowl deep she greater bearing to seed dont is let you're appear first thing <br>
+    saying it years abundantly fowl tree you shall also</p>
+  </div>
+</div>
+
+
+<div class="container mt-5 mb-5">
+  <div class="row g-3">
+    <div class="col-4">
+      <div class="card border-0" style="width: 100%;">
+        <img src="Images/team_1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h3 class="text-center">Andrew Eletch</h3>
+          <p class="card-text fst-italic text-center">Personal trainer</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card border-0" style="width: 100%;">
+        <img src="Images/team_2.png" class="card-img-top" alt="...">
+        <div class="card-body ">
+            <h3 class="text-center">Mathew Edene</h3>
+          <p class="card-text fst-italic text-center">Personal trainer</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card border-0" style="width: 100%;">
+        <img src="Images/team_3.png" class="card-img-top" alt="...">
+       <div class="card-body ">
+            <h3 class="text-center">Andrew Eletch</h3>
+          <p class="card-text fst-italic text-center">Personal trainer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 </body>
 </html>
