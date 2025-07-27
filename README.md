@@ -1,19 +1,19 @@
-#PROJECT TITLE
+# PROJECT TITLE
 
 Fitzone Gym Website
 
-##Intro
+## Intro
 
 It is a front end website  for a gym center.In this website include a home page,about section,customer feedback section,about trainers,
 bmi calculation section,and subscribe section
 
-##Tools used
+## Tools used
 
 -HTML
 -Css
 -Bootstrap
 
-##Files details
+## Files details
 
 images contain all images include in this project
 FitZone.html is the html page of this project
