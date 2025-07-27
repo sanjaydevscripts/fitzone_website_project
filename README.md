@@ -9,9 +9,9 @@ bmi calculation section,and subscribe section
 
 ## Tools used
 
--HTML
--Css
--Bootstrap
+- HTML
+- Css
+- Bootstrap
 
 ## Files details
 
